@@ -5,7 +5,6 @@ This project provides a user management API built with Next.js (App Router), Jav
 ## Features
 - User signup and authentication
 - Secure API routes using JWT middleware
-- CRUD operations for users
 - MongoDB database integration using Mongoose
 
 ---
@@ -19,14 +18,14 @@ This project provides a user management API built with Next.js (App Router), Jav
 ### Steps
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/your-repo/nextjs-user-api.git
-   cd nextjs-user-api
+   git clone https://github.com/rifaturrana/egl-assesment.git
+   cd egl-assesment
    ```
 2. **Install dependencies:**
    ```sh
    npm install
    ```
-3. **Set up environment variables:** Create a `.env.local` file in the root directory and add the following:
+3. **Set up environment variables:** Create a `.env` file in the root directory and add the following:
    ```env
    MONGODB_URI=your-mongodb-connection-string
    JWT_SECRET=your-secret-key
